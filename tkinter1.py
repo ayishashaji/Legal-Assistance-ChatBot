@@ -10,7 +10,7 @@ import os
 from langchain.chains.question_answering import load_qa_chain
 from langchain_community.llms import OpenAI
 
-os.environ["OPENAI_API_KEY"] = "sk-proj-5t1pOBdADM71U8aW1RuGT3BlbkFJDcrWpt3ZSqhr9ZlfuDQt"
+os.environ["OPENAI_API_KEY"] = "OpenAPIKey"
 
 # Provide the paths of PDF files.
 pdf_paths = [
